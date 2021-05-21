@@ -1,0 +1,14 @@
+biblioteca : pyautogui
+
+pyperclip: permite copiar e colcar com python 
+
+
+link = 'www.site.asidjaoisdj'
+pyautogui.pyperclip(link)   #copia o texto da variável
+pyautogui.hotley('ctrl', 't') #eteclas a serem pressionadas (atalho)
+pyautogui.write('')   #texto a ser digitado
+pyautogui.press('enter') #pressiona uma tecla
+pyautogui.click('x', 'y') #local onde clicar na tela. x e y são a matriz da tela
+
+time.sleep() #tempo de espera
+point()
